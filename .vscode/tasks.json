@@ -1,0 +1,29 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "NewFile",
+            "type": "shell",
+            "command": "${workspaceFolder}/src/new_file.sh",
+            "problemMatcher": []
+        },
+        {
+            "label": "UpdateRelation",
+            "type": "shell",
+            "command": "${workspaceFolder}/src/update_relation.sh ${file}",
+            "problemMatcher": []
+        },
+        {
+            "label": "UpdateGraph",
+            "type": "shell",
+            "command": "${workspaceFolder}/src/update_graph.sh",
+            "problemMatcher": []
+        },
+        {
+            "label": "ShowHighRelationDocs",
+            "type": "shell",
+            "command": "${workspaceFolder}/src/show_high_relation_docs.sh ${file}",
+            "problemMatcher": []
+        }
+    ]
+}

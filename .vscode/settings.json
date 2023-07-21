@@ -1,0 +1,9 @@
+{
+    "pasteImage.basePath": "${currentFileDir}/images",
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true,
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter"
+    },
+    "python.formatting.provider": "none"
+}
